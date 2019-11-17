@@ -14,6 +14,13 @@ def LoadFile(filename):
             return_list.append(line[:-1])
             
     return return_list
+
+def UpdateString(str1,str2,x):
+    str3 = str1[0:x] + str2 + str1[x+1:]
+    print('OUTPUT',str3)
+    
+    
+    
         
         
     
