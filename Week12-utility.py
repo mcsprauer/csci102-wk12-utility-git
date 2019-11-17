@@ -18,6 +18,13 @@ def LoadFile(filename):
 def UpdateString(str1,str2,x):
     str3 = str1[0:x] + str2 + str1[x+1:]
     print('OUTPUT',str3)
+
+
+def FindWordCount(my_list,str1):
+
+    return my_list.count(str1)
+
+    
     
     
     
