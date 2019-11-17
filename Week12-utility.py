@@ -34,6 +34,15 @@ def ScoreFinder(list1,list2,str1):
         
     if found_it == False:
         print('OUTPUT player not found')
+
+
+def Union(list1,list2):
+    list3 = []
+    for i in list1 + list2:
+        if i not in list3:
+            list3.append(i)
+
+    return list3
             
         
             
