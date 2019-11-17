@@ -24,6 +24,7 @@ def FindWordCount(my_list,str1):
 
     return my_list.count(str1)
 
+
 def ScoreFinder(list1,list2,str1):
     found_it = False
     for i in range(0,len(list1)):
@@ -43,7 +44,18 @@ def Union(list1,list2):
             list3.append(i)
 
     return list3
-            
+
+
+def Intersection(list1,list2):
+    list3= []
+    for i in list1:
+        if i in list2:
+            if i not in list3:
+                list3.append(i)
+
+    return list3
+
+
         
             
 
